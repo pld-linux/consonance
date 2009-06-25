@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Consonance
+Name[pl]=Consonance
+GenericName=Music Manager
+GenericName[pl]=Menadżer Muzyki
+Type=Application
+Comment=A lightweight music manager
+Comment[pl]=Lekki menadżer muzyki
+Icon=consonance
+Exec=consonance %F
+Terminal=false
+MimeType=audio/x-mp3;audio/mpeg;audio/x-mpeg;audio/mpeg3;audio/mp3;application/ogg;application/x-ogg;audio/vorbis;audio/x-vorbis;audio/ogg;audio/x-ogg;audio/x-flac;application/x-flac;audio/flac;audio/x-wav
+Categories=GTK:Application;AudioVideo;Player
+# vi: encoding=utf-8
