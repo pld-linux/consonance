@@ -26,7 +26,6 @@ BuildRequires:	libtool
 BuildRequires:	libvorbis-devel
 BuildRequires:	sqlite3-devel
 BuildRequires:	taglib-devel
-
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
