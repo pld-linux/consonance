@@ -9,6 +9,7 @@ Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	2a195dd2314f7b65cc57cc871a4c5a47
 Source1:	%{name}.desktop
 URL:		https://sites.google.com/site/consonancemanager/Home
+BuildRequires:	alsa-lib-devel >= 1.0.20
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	curl-devel
@@ -24,6 +25,7 @@ BuildRequires:	libnotify-devel
 BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
 BuildRequires:	libvorbis-devel
+BuildRequires:	pkgconfig
 BuildRequires:	sqlite3-devel
 BuildRequires:	taglib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
